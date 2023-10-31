@@ -30,9 +30,6 @@ handleFeedback = (key) => {
 
 
   render() {
-    const {good} = this.state;
-    const {neutral} = this.state;
-    const {bad} = this.state;
     const keys = Object.keys(this.state)
     return (
 <div
@@ -66,12 +63,6 @@ countPositiveFeedbackPercentage={this.countPositiveFeedbackPercentage()}
 
     )
   }
-
-
-
-
-
-  
 };
 
 
